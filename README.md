@@ -1,4 +1,4 @@
-# [인공지능기초] 텍스트 마이닝을 통한 2024 미국 대선 분석 
+# [인공지능기초]텍스트 마이닝을 통한 2024 미국 대선 분석 
 
 
 ## 프로젝트 구조
@@ -28,4 +28,4 @@
 │     └─ fox
 │        ├─ fox_news_content_crawler.ipynb
 │        └─ fox_news_url_title_crawler.ipynb
-└─ README.m
+└─ README.md
