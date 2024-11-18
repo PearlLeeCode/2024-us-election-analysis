@@ -18,6 +18,7 @@
 │     └─ fox
 │        ├─ fox_news_content.json
 │        └─ fox_news_url_title.json
+│
 ├─ 1.Data_Collection
 │  ├─ 1.대선토론
 │  │  └─ 캐글 주소.md
@@ -28,4 +29,10 @@
 │     └─ fox
 │        ├─ fox_news_content_crawler.ipynb
 │        └─ fox_news_url_title_crawler.ipynb
+│
+├─ 2.Data_Analysi
+│  └─ 2.뉴스
+│     └─ 뉴스_빈도분석.ipynb
+│
 └─ README.md
+```
