@@ -1,8 +1,19 @@
-# [인공지능기초]텍스트 마이닝을 통한 2024 미국 대선 분석 
+# [인공지능기초]텍스트 마이닝을 통한 2024 미국 대선 사후 분석 
+
+<br>
+
+> [!IMPORTANT]
+> ## 프로젝트 세부 목표
+> 1. 후보자에 대해 각 매체(토론/뉴스/SNS)별로 어떤 단어들이 쓰였는가?
+> 2. 각 메체(토론/뉴스/SNS)에서 후보자들과 관련있는 단어들은 무엇일까?
+> 3. 후보자의 언급 빈도수로 선거결과를 예측할 수 있을까?
+> 4. 후보자들에 대한 감성은 어떻게 나타날까?
+> 5. 후보자들에 대한 감성으로 선거 결과를 예측 할 수 있을까? 
 
 <br>
 
 > [!NOTE]
+> ## 계획 및 진행상황
 > **1.토론 데이터**
 > - [X] ~크롤링~
 > - [ ] 토론에서 각 후보자의 발언 수 비교
@@ -48,6 +59,7 @@
 │     └─ youtube
 │        ├─ harris_youtube_url_title_date.json
 │        └─ trump_youtube_url_title_date.json
+│
 ├─ 1.Data_Collection
 │  ├─ 1.대선토론
 │  │  └─ trump_harris_debate_crawler.ipynb
@@ -58,12 +70,14 @@
 │  │  └─ fox
 │  │     ├─ fox_news_content_crawler.ipynb
 │  │     └─ fox_news_url_title_crawler.ipynb
-│  ├─ 3.SNS
-│  │  └─ youtube
-│  │     ├─ harris_youtube_url_title_date_crawler.ipynb
-│  │     └─ trump_youtube_url_title_date_crawler.ipynb
+│  └─ 3.SNS
+│     └─ youtube
+│        ├─ harris_youtube_url_title_date_crawler.ipynb
+│        └─ trump_youtube_url_title_date_crawler.ipynb
+│
 ├─ 2.Data_Analysis
 │  └─ 2.뉴스
 │     └─ 뉴스_빈도분석.ipynb
+│
 └─ README.md
 ```
