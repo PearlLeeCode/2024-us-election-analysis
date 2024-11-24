@@ -28,7 +28,8 @@
 > - [ ] 후보자 언급 빈도 분석(~FOX~, ~CBS~만 현재 완료🏃‍♀️)
 > 
 > **3.SNS 데이터**
-> - [ ] 크롤링(youtube🏃‍♀️ instagram✖ facebook✖ truth_social✖) 
+> - [ ] 크롤링(~youtube~✔ instagram✖ facebook✖ truth_social✖)
+> - [ ] 샘플링을 통한 편향 조정
 > - [ ] TF-IDF 기반 워드클라우드
 > - [ ] VADER 기반 감성분석
 > - [ ] LLM 기반 감성분석
