@@ -58,7 +58,9 @@
 │  │     └─ fox_news_url_title.json
 │  └─ 3.SNS
 │     └─ youtube
+│        ├─ harris_youtube_comment_commentdate_likes.jsonl
 │        ├─ harris_youtube_url_title_date.json
+│        ├─ trump_youtube_comment_commentdate_likes.jsonl
 │        └─ trump_youtube_url_title_date.json
 │
 ├─ 1.Data_Collection
@@ -72,9 +74,11 @@
 │  │     ├─ fox_news_content_crawler.ipynb
 │  │     └─ fox_news_url_title_crawler.ipynb
 │  └─ 3.SNS
-│     └─ youtube
-│        ├─ harris_youtube_url_title_date_crawler.ipynb
-│        └─ trump_youtube_url_title_date_crawler.ipynb
+│     └─ youtube
+│        ├─ harris_youtube_comment_commentdate_likes_crawler.ipynb
+│        ├─ harris_youtube_url_title_date_crawler.ipynb
+│        ├─ trump_youtube_comment_commentdate_likes_crawler.ipynb
+│        └─ trump_youtube_url_title_date_crawler.ipynb
 │
 ├─ 2.Data_Analysis
 │  └─ 2.뉴스
