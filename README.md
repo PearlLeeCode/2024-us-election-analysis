@@ -47,42 +47,42 @@
 ```
 📦 
 ├─ 1.Data_Collection
-│  ├─ 1.Collected_Data
+│  ├─ 🛠️1.Data_Collector
 │  │  ├─ 1.대선토론
-│  │  │  └─ trump_harris_debate.json
+│  │  │  └─ trump_harris_debate_crawler.ipynb
 │  │  ├─ 2.뉴스
 │  │  │  ├─ cbs
-│  │  │  │  ├─ cbs_news_content.json
-│  │  │  │  └─ cbs_news_url_title.json
+│  │  │  │  ├─ cbs_news_content_crawler.ipynb
+│  │  │  │  └─ cbs_news_url_title_crawler.ipynb
 │  │  │  └─ fox
-│  │  │     ├─ fox_news_content.json
-│  │  │     └─ fox_news_url_title.json
+│  │  │     ├─ fox_news_content_crawler.ipynb
+│  │  │     └─ fox_news_url_title_crawler.ipynb
 │  │  └─ 3.유튜브 댓글
-│  │     ├─ harris_youtube_comment_commentdate_likes.jsonl
-│  │     ├─ harris_youtube_url_title_date.json
-│  │     ├─ trump_youtube_comment_commentdate_likes.jsonl
-│  │     └─ trump_youtube_url_title_date.json
-│  └─ 2.Data_Collector
+│  │     ├─ harris_youtube_comment_commentdate_likes_crawler.ipynb
+│  │     ├─ harris_youtube_url_title_date_crawler.ipynb
+│  │     ├─ trump_youtube_comment_commentdate_likes_crawler.ipynb
+│  │     └─ trump_youtube_url_title_date_crawler.ipynb
+│  └─ 🗂️2.Collected_Data
 │     ├─ 1.대선토론
-│     │  └─ trump_harris_debate_crawler.ipynb
+│     │  └─ trump_harris_debate.json
 │     ├─ 2.뉴스
 │     │  ├─ cbs
-│     │  │  ├─ cbs_news_content_crawler.ipynb
-│     │  │  └─ cbs_news_url_title_crawler.ipynb
+│     │  │  ├─ cbs_news_content.json
+│     │  │  └─ cbs_news_url_title.json
 │     │  └─ fox
-│     │     ├─ fox_news_content_crawler.ipynb
-│     │     └─ fox_news_url_title_crawler.ipynb
+│     │     ├─ fox_news_content.json
+│     │     └─ fox_news_url_title.json
 │     └─ 3.유튜브 댓글
-│        ├─ harris_youtube_comment_commentdate_likes_crawler.ipynb
-│        ├─ harris_youtube_url_title_date_crawler.ipynb
-│        ├─ trump_youtube_comment_commentdate_likes_crawler.ipynb
-│        └─ trump_youtube_url_title_date_crawler.ipynb
+│        ├─ harris_youtube_comment_commentdate_likes.jsonl
+│        ├─ harris_youtube_url_title_date.json
+│        ├─ trump_youtube_comment_commentdate_likes.jsonl
+│        └─ trump_youtube_url_title_date.json
 │
 ├─ 2.Data_Preprocessing
-│  ├─ 1.Data_Preprocessor
+│  ├─ 🛠️1.Data_Preprocessor
 │  │  └─ 1.대선토론
 │  │     └─ trump_harris_debate_preprocessor.ipynb
-│  └─ 2.Preprocessed_Data
+│  └─ 🗂️2.Preprocessed_Data
 │     └─ 1.대선토론
 │        ├─ preprocessed_debate_scripts.csv
 │        └─ preprocessed_debate_scripts.json
@@ -90,6 +90,5 @@
 ├─ 3.Data_Analysis
 │  └─ 2.뉴스
 │     └─ 뉴스_빈도분석.ipynb
-│
 └─ README.md
 ```
