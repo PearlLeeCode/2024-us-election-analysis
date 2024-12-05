@@ -4,8 +4,8 @@
 
 > [!NOTE]
 > ## 프로젝트 세부 목표
-> 1. 후보자에 대해 각 매체(토론/뉴스/SNS)별로 어떤 단어들이 쓰였는가?
-> 2. 전체 매체(토론/뉴스/SNS)에서 후보자들과 관련있는 단어들은 무엇일까?
+> 1. 후보자에 대해 각 매체(토론/뉴스/유튜브 댓글)별로 어떤 단어들이 쓰였는가?
+> 2. 전체 매체(토론/뉴스/유튜브 댓글)에서 후보자들과 관련있는 단어들은 무엇일까?
 > 3. 후보자의 언급 빈도수로 선거결과를 예측할 수 있을까?
 > 4. 후보자들에 대한 감성은 어떻게 나타날까?
 > 5. 후보자들에 대한 감성으로 선거 결과를 예측 할 수 있을까? 
@@ -56,12 +56,11 @@
 │  │  └─ fox
 │  │     ├─ fox_news_content.json
 │  │     └─ fox_news_url_title.json
-│  └─ 3.SNS
-│     └─ youtube
-│        ├─ harris_youtube_comment_commentdate_likes.jsonl
-│        ├─ harris_youtube_url_title_date.json
-│        ├─ trump_youtube_comment_commentdate_likes.jsonl
-│        └─ trump_youtube_url_title_date.json
+│  └─ 3.유튜브 댓글
+│     ├─ harris_youtube_comment_commentdate_likes.jsonl
+│     ├─ harris_youtube_url_title_date.json
+│     ├─ trump_youtube_comment_commentdate_likes.jsonl
+│     └─ trump_youtube_url_title_date.json
 │
 ├─ 1.Data_Collection
 │  ├─ 1.대선토론
@@ -73,12 +72,11 @@
 │  │  └─ fox
 │  │     ├─ fox_news_content_crawler.ipynb
 │  │     └─ fox_news_url_title_crawler.ipynb
-│  └─ 3.SNS
-│     └─ youtube
-│        ├─ harris_youtube_comment_commentdate_likes_crawler.ipynb
-│        ├─ harris_youtube_url_title_date_crawler.ipynb
-│        ├─ trump_youtube_comment_commentdate_likes_crawler.ipynb
-│        └─ trump_youtube_url_title_date_crawler.ipynb
+│  └─ 3.유튜브 댓글
+│     ├─ harris_youtube_comment_commentdate_likes_crawler.ipynb
+│     ├─ harris_youtube_url_title_date_crawler.ipynb
+│     ├─ trump_youtube_comment_commentdate_likes_crawler.ipynb
+│     └─ trump_youtube_url_title_date_crawler.ipynb
 │
 ├─ 2.Data_Analysis
 │  └─ 2.뉴스
