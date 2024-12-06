@@ -17,16 +17,16 @@
 > **1.토론 데이터**
 > - [X] ~크롤링~
 > - [X] ~전처리(토큰화, 불용어 제거, 표제어 추출 등)~
-> - [ ] 토론에서 각 후보자의 발언 수 비교
-> - [ ] 후보자의 발언 데이터 TF-IDF 기반 워드클라우드
-> - [ ] LDA를 통한 토픽 분석
+> - [X] ~토론에서 각 후보자의 발언 수 비교~
+> - [X] ~후보자의 발언 데이터 TF-IDF 기반 워드클라우드~
+> - [X] ~LDA를 통한 토픽 분석~
 > 
 > **2.뉴스 데이터**
-> - [ ] 크롤링(~FOX~✔ ~CBS~✔ POLITICO✖ NPR✖ Reuter✖ AP✖ ABC✖ PBS✖)
+> - [X] ~크롤링~
 > - [ ] 편향지수를 가지고 정규화 및 가중치 반영
 > - [ ] 빈도수 기반 워드클라우드(표제어 및 불용어 처리 필요🏃‍♀️)
 > - [ ] TF-IDF 키워드 분석
-> - [ ] 후보자 언급 빈도 분석(~FOX~, ~CBS~만 현재 완료🏃‍♀️)
+> - [ ] 후보자 언급 빈도 분석
 > 
 > **3.유튜브 댓글 데이터**
 > - [X] ~크롤링~
@@ -47,49 +47,54 @@
 
 ```
 📦 
-├─ 1.Data_Collection
-│  ├─ 🛠️1.Data_Collector
+├─ 🗂️1.Data_Collection
+│  ├─ 1.Data_Collector
 │  │  ├─ 1.대선토론
-│  │  │  └─ trump_harris_debate_crawler.ipynb
+│  │  │  └─ 💻trump_harris_debate_crawler.ipynb
 │  │  ├─ 2.뉴스
 │  │  │  ├─ cbs
-│  │  │  │  ├─ cbs_news_content_crawler.ipynb
-│  │  │  │  └─ cbs_news_url_title_crawler.ipynb
+│  │  │  │  ├─ 💻cbs_news_content_crawler.ipynb
+│  │  │  │  └─ 💻cbs_news_url_title_crawler.ipynb
 │  │  │  └─ fox
-│  │  │     ├─ fox_news_content_crawler.ipynb
-│  │  │     └─ fox_news_url_title_crawler.ipynb
+│  │  │     ├─ 💻fox_news_content_crawler.ipynb
+│  │  │     └─ 💻fox_news_url_title_crawler.ipynb
 │  │  └─ 3.유튜브 댓글
-│  │     ├─ harris_youtube_comment_commentdate_likes_crawler.ipynb
-│  │     ├─ harris_youtube_url_title_date_crawler.ipynb
-│  │     ├─ trump_youtube_comment_commentdate_likes_crawler.ipynb
-│  │     └─ trump_youtube_url_title_date_crawler.ipynb
-│  └─ 🗂️2.Collected_Data
+│  │     ├─ 💻harris_youtube_comment_api_crawler.ipynb
+│  │     ├─ 💻harris_youtube_comment_commentdate_likes_crawler.ipynb
+│  │     ├─ 💻harris_youtube_url_title_date_crawler.ipynb
+│  │     ├─ 💻trump_youtube_comment_api_crawler.ipynb
+│  │     ├─ 💻trump_youtube_comment_commentdate_likes_crawler.ipynb
+│  │     └─ 💻trump_youtube_url_title_date_crawler.ipynb
+│  └─ 2.Collected_Data
 │     ├─ 1.대선토론
-│     │  └─ trump_harris_debate.json
+│     │  └─ 📄trump_harris_debate.json
 │     ├─ 2.뉴스
 │     │  ├─ cbs
-│     │  │  ├─ cbs_news_content.json
-│     │  │  └─ cbs_news_url_title.json
+│     │  │  ├─ 📄cbs_news_content.json
+│     │  │  └─ 📄cbs_news_url_title.json
 │     │  └─ fox
-│     │     ├─ fox_news_content.json
-│     │     └─ fox_news_url_title.json
+│     │     ├─ 📄fox_news_content.json
+│     │     └─ 📄fox_news_url_title.json
 │     └─ 3.유튜브 댓글
-│        ├─ harris_youtube_comment_commentdate_likes.jsonl
-│        ├─ harris_youtube_url_title_date.json
-│        ├─ trump_youtube_comment_commentdate_likes.jsonl
-│        └─ trump_youtube_url_title_date.json
+│        ├─ 📄harris_youtube_comment.jsonl
+│        ├─ 📄harris_youtube_comment_commentdate_likes.jsonl
+│        ├─ 📄harris_youtube_url_title_date.json
+│        ├─ 📄trump_youtube_comment.jsonl
+│        ├─ 📄trump_youtube_comment_commentdate_likes.jsonl
+│        └─ 📄trump_youtube_url_title_date.json
 │
-├─ 2.Data_Preprocessing
-│  ├─ 🛠️1.Data_Preprocessor
+├─ 🗂️2.Data_Preprocessing
+│  ├─ 1.Data_Preprocessor
 │  │  └─ 1.대선토론
-│  │     └─ trump_harris_debate_preprocessor.ipynb
-│  └─ 🗂️2.Preprocessed_Data
+│  │     └─ 💻trump_harris_debate_preprocessor.ipynb
+│  └─ 2.Preprocessed_Data
 │     └─ 1.대선토론
-│        ├─ preprocessed_debate_scripts.csv
-│        └─ preprocessed_debate_scripts.json
+│        ├─ 📄preprocessed_debate_scripts.csv
+│        └─ 📄preprocessed_debate_scripts.json
 │
-├─ 3.Data_Analysis
+├─ 🗂️3.Data_Analysis
 │  └─ 2.뉴스
-│     └─ 뉴스_빈도분석.ipynb
+│     └─ 💻뉴스_빈도분석.ipynb
+│
 └─ README.md
 ```
