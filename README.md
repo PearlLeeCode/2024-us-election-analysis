@@ -101,5 +101,11 @@
 │        ├─ 📄vader_sentiment_analysis_trump.json
 │        └─ 💻vader_sentiment_analyzer.ipynb
 │
+├─ 🗂️4.Data_Predition
+│  └─ 유튜브 댓글
+│     └─ LSTM
+│        └─ vader 기반 감성 지수
+│           └─ 💻vader_sentiment_lstm_predictor.ipynb
+│
 └─ README.md
 ```
