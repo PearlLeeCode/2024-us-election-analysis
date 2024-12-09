@@ -23,20 +23,22 @@
 > 
 > **2.뉴스 데이터**
 > - [X] ~크롤링~
+> - [X] ~전처리(불용어 제거 등)~
 > - [ ] 편향지수를 가지고 정규화 및 가중치 반영
-> - [ ] 빈도수 기반 워드클라우드(표제어 및 불용어 처리 필요🏃‍♀️)
-> - [ ] TF-IDF 키워드 분석
-> - [ ] 후보자 언급 빈도 분석
+> - [X] 빈도수 기반 워드클라우드
+> - [X] TF-IDF 키워드 분석
+> - [X] 후보자 언급 빈도 분석
 > 
 > **3.유튜브 댓글 데이터**
 > - [X] ~크롤링~
 > - [X] ~다운샘플링을 통한 편향 조정~
 > - [ ] TF-IDF 기반 워드클라우드
 > - [X] ~VADER 기반 감성분석~
-> - [ ] LLM 기반 감성분석
+> - [X] LLM 기반 감성분석
 > - [X] ~VADER 기반 감성지수 LSTM 예측~
-> - [ ] LLM 기반 감성지수 LSTM  예측
+> - [X] ~LLM 기반 감성지수 LSTM  예측~
 > - [X] ~VADER 기반 감성지수 Amazon Chronos 예측~
+> - [X] ~LLM 기반 감성지수 Amazon Chronos 예측~
 > 
 > **4.통합 데이터 (토론 + 뉴스 + 유튜브 댓글)**
 > - [ ] Word2Vec
@@ -87,28 +89,55 @@
 │
 ├─ 🗂️2.Data_Preprocessing
 │  ├─ 1.Data_Preprocessor
-│  │  └─ 1.대선토론
-│  │     └─ 💻trump_harris_debate_preprocessor.ipynb
+│  │  ├─ 1.대선토론
+│  │  │  └─ 💻trump_harris_debate_preprocessor.ipynb
+│  │  └─ 3.유튜브 댓글
+│  │     └─ 💻youtube_comment_filter_for_llm.ipynb
 │  └─ 2.Preprocessed_Data
-│     └─ 1.대선토론
-│        ├─ 📄preprocessed_debate_scripts.csv
-│        └─ 📄preprocessed_debate_scripts.json
+│     ├─ 1.대선토론
+│     │  ├─ 📄preprocessed_debate_scripts.csv
+│     │  └─ 📄preprocessed_debate_scripts.json
+│     └─ 3.유튜브 댓글
+│        ├─ 📄harris_youtube_comment_filtered_for_llm_10000.jsonl
+│        ├─ 📄harris_youtube_comment_filtered_for_llm_18000.jsonl
+│        ├─ 📄trump_youtube_comment_filtered_for_llm_10000.jsonl
+│        └─ 📄trump_youtube_comment_filtered_for_llm_18000.jsonl
 │
 ├─ 🗂️3.Data_Analysis
-│  ├─ 2.뉴스
-│  │  └─ 💻뉴스_빈도분석.ipynb
-│  └─ 3.유튜브 댓글
-│     └─ vader기반 감성분석
-│        ├─ 📄vader_sentiment_analysis_harris.json
-│        ├─ 📄vader_sentiment_analysis_trump.json
-│        └─ 💻vader_sentiment_analyzer.ipynb
+│  ├─ 1.Data_Analyzer
+│  │  ├─ 1.대선토론
+│  │  │  └─ 💻debate_analyzer.ipynb
+│  │  ├─ 2.뉴스
+│  │  │  └─ 💻news_analyzer.ipynb
+│  │  └─ 3.유튜브 댓글
+│  │     ├─ llm기반 감성분석
+│  │     │  ├─ 💻llm_sentiment_analysis_colab무료계정1+결과8500개.ipynb
+│  │     │  ├─ 💻llm_sentiment_analysis_colab무료계정2+결과9000개.ipynb
+│  │     │  └─ 💻llm_sentiment_analysis_colab무료계정3+결과2500개.ipynb
+│  │     └─ vader기반 감성분석
+│  │        └─ 💻vader_sentiment_analyzer.ipynb
+│  └─ 2.Analyzed_Data
+│     └─ 3.유튜브 댓글
+│        ├─ llm기반 감성분석
+│        │  ├─ 📄llm_sentiment_analysis.jsonl
+│        │  └─ post-processing
+│        │     ├─ 📄llm_sentiment_analysis_harris_time_series.json
+│        │     ├─ 📄llm_sentiment_analysis_post_processor.ipynb
+│        │     └─ 📄llm_sentiment_analysis_trump_time_series.json
+│        └─ vader기반 감성분석
+│           ├─ 📄vader_sentiment_analysis_harris.json
+│           └─ 📄vader_sentiment_analysis_trump.json
 │
 ├─ 🗂️4.Data_Predition
 │  └─ 유튜브 댓글
 │     ├─ AWS_Chronos
+│     │  ├─ llm 기반 감성 지수
+│     │  │  └─ 💻llm_sentiment_chronos_predictor.ipynb
 │     │  └─ vader 기반 감성 지수
 │     │     └─ 💻vader_sentiment_chronos_predictor.ipynb
 │     └─ LSTM
+│        ├─ llm 기반 감성 지수
+│        │  └─ 💻vader_sentiment_lstm_predictor.ipynb
 │        └─ vader 기반 감성 지수
 │           └─ 💻vader_sentiment_lstm_predictor.ipynb
 │
