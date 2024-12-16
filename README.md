@@ -90,7 +90,7 @@
 |VADER 사전 기반 감성분석|VADER 사전 기반 감성분석 결과|
 |------------------------------|------------------------------|
 |![인공지능기초_기말발표_10조-25-1](https://github.com/user-attachments/assets/93813127-e83c-448c-87a0-501ba1340887)|![인공지능기초_기말발표_10조-26-1](https://github.com/user-attachments/assets/33aec2d2-51a5-409e-be00-6362ec06bed1)|
-|VADER 사전 기반 감성지수 LSTM 예측|VADER 사전 기반 감성지수 Chronos 예측|
+|VADER 사전 기반 감성지수 LSTM 예측|VADER 사전 기반 감성지수 [Chronos](https://github.com/amazon-science/chronos-forecasting) 예측|
 |![인공지능기초_기말발표_10조-27-1](https://github.com/user-attachments/assets/9ef0fa81-ea1a-4652-8e8a-c2a1700fb395)|![인공지능기초_기말발표_10조-28-1](https://github.com/user-attachments/assets/24649123-eb7a-48b3-a55f-75695ed1cc54)|
 |한계 (LLM 기반 감성분석 진행의 동기)||
 |![인공지능기초_기말발표_10조-29-1](https://github.com/user-attachments/assets/945d54cd-6c4a-4afe-a4cd-a3de515088e9)||
@@ -103,7 +103,7 @@
 |![인공지능기초_기말발표_10조-33-1](https://github.com/user-attachments/assets/e2f2c659-f399-4035-8d15-981639ceaf54)|![인공지능기초_기말발표_10조-34-1](https://github.com/user-attachments/assets/8503fc15-e099-4429-b8f9-9c3ce9749e33)|
 |LLM 기반 감성분석 결과|LLM 기반 감성지수 LSTM 예측|
 |![인공지능기초_기말발표_10조-35-1](https://github.com/user-attachments/assets/c75cc032-5e2a-4518-abed-2b5eba68448b)|![인공지능기초_기말발표_10조-36-1](https://github.com/user-attachments/assets/9a618435-4210-4e43-8605-f0f4fc28994a)|
-|LLM 기반 감성지수 Chronos 예측||
+|LLM 기반 감성지수 [Chronos](https://github.com/amazon-science/chronos-forecasting) 예측||
 |![인공지능기초_기말발표_10조-37-1](https://github.com/user-attachments/assets/faacb4bd-0342-47b3-af8a-61b5f74ed376)||
 
 > [!NOTE]
