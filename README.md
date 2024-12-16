@@ -1,6 +1,8 @@
 # [인공지능기초]텍스트 마이닝을 통한 2024 미국 대선 사후 분석 🗽
 인공지능기초 수업 팀 프로젝트
 
+
+
 - **주제:** 텍스트 마이닝을 통한 2024 미국 대선 사후분석: VADER & LLM 기반 감성지수 시계열 예측을 중심으로
 - **기간:** 2024.09.20~2024.12.17
 - **결과보고서(발표자료):** 
@@ -12,7 +14,7 @@
     <td align="center">팀원</td>
 </tr>
 <tr>
-    <td align="center" style="width: 49%;"><img src="https://github.com/user-attachments/assets/78868fa7-c861-4e3a-a097-5503c1001c90" width="130px;" alt=""></a></td>
+    <td align="center" style="width: 49%;"><img src="https://github.com/user-attachments/assets/c6147619-792b-4c5c-82e0-992a05e736f6" width="130px;" alt=""></a></td>
     <td align="center" style="width: 49%;"><img src="https://github.com/user-attachments/assets/d8708571-59fa-4d4c-b70a-12ba24b93d4b" width="130px;" alt=""></a></td>
 </tr>
 <tr>
@@ -28,8 +30,8 @@
     <td align="center">데이터 전처리, 분석,<br>발표</td>
 </tr> 
 <tr> 
-    <td align="center">대선 토론,<br>뉴스,<br>유튜브 댓글</td>
-    <td align="center">뉴스</td>
+    <td align="center">대선 토론,<br>뉴스,<br>유튜브 댓글<br>데이터</td>
+    <td align="center">뉴스<br>데이터</td>
 </tr> 
 </table>
 <br>
@@ -38,7 +40,7 @@
 > ## 프로젝트 세부 목표
 > 1. 후보자에 대해 각 매체(토론/뉴스/유튜브 댓글)별로 어떤 단어들이 쓰였는가?
 > 2. 전체 매체(토론/뉴스/유튜브 댓글)에서 후보자들과 관련있는 단어들은 무엇일까?
-> 3. 후보자들에 대한 감성은 어떻게 나타날까?
+> 3. 후보자들에 대한 감성은 Vader기반과 LLM기반으로 분석했을때 결과가 각각 어떻게 나타날까?
 > 4. 후보자들에 대한 감성으로 선거 결과를 예측 할 수 있을까? 
 
 <br>
