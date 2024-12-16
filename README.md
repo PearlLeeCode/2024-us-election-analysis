@@ -1,7 +1,39 @@
-# [인공지능기초]텍스트 마이닝을 통한 2024 미국 대선 사후 분석 
+# [인공지능기초]텍스트 마이닝을 통한 2024 미국 대선 사후 분석 🗽
+인공지능기초 수업 팀 프로젝트
 
+- **주제:** 텍스트 마이닝을 통한 2024 미국 대선 사후분석: VADER & LLM 기반 감성지수 시계열 예측을 중심으로
+- **기간:** 2024.09.20~2024.12.17
+- **결과보고서(발표자료):** 
+
+ ## 프로젝트 팀 구성 및 역할
+ <table style="width: 100%;">
+<tr>
+    <td align="center">팀장</td>
+    <td align="center">팀원</td>
+</tr>
+<tr>
+    <td align="center" style="width: 49%;"><img src="https://github.com/user-attachments/assets/78868fa7-c861-4e3a-a097-5503c1001c90" width="130px;" alt=""></a></td>
+    <td align="center" style="width: 49%;"><img src="https://github.com/user-attachments/assets/d8708571-59fa-4d4c-b70a-12ba24b93d4b" width="130px;" alt=""></a></td>
+</tr>
+<tr>
+    <td align="center"><a href="https://github.com/PearlLeeCode"><b>이진주</b></a></td>
+    <td align="center"><a href=""><b>이건창</b></a></td>
+</tr>
+<tr>
+    <td align="center">정치외교학과</td>
+    <td align="center">금융공학과</td>
+</tr>
+<tr> 
+    <td align="center">데이터 수집, 전처리,<br>분석, 모델링 및 예측</td>
+    <td align="center">데이터 전처리, 분석,<br>발표</td>
+</tr> 
+<tr> 
+    <td align="center">대선 토론,<br>뉴스,<br>유튜브 댓글</td>
+    <td align="center">뉴스</td>
+</tr> 
+</table>
 <br>
-
+ 
 > [!NOTE]
 > ## 프로젝트 세부 목표
 > 1. 후보자에 대해 각 매체(토론/뉴스/유튜브 댓글)별로 어떤 단어들이 쓰였는가?
