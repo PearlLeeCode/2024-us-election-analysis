@@ -22,7 +22,7 @@
 
 - **주제:** 텍스트 마이닝을 통한 2024 미국 대선 사후분석: VADER & LLM 기반 감성지수 시계열 예측을 중심으로
 - **기간:** 2024.09.20~2024.12.17
-- **결과보고서(발표자료):** 
+- **결과보고서(발표자료):** [인공지능기초_기말발표_10조.pdf](https://github.com/PearlLeeCode/2024-us-election-analysis/blob/main/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EA%B8%B0%EC%B4%88_%EA%B8%B0%EB%A7%90%EB%B0%9C%ED%91%9C_10%EC%A1%B0.pdf)
 
  # 2. 팀원 구성 및 역할
  <table style="width: 100%;">
@@ -112,7 +112,7 @@
 
 
 # 11. 프로젝트 의의 및 추후 개선사항
-|프로젝트 의의|추후 개선사항|
+|추후 개선사항|프로젝트 의의|
 |------------------------------|------------------------------|
 |![인공지능기초_기말발표_10조-44-1](https://github.com/user-attachments/assets/78ea6d80-4dcd-4241-9de1-5a0a00d8cc94)|![인공지능기초_기말발표_10조-46-1](https://github.com/user-attachments/assets/3e74672d-49dc-4e62-ad65-5620ca4ff910)|
 
@@ -166,11 +166,7 @@
 > **4.통합 데이터 (토론 + 뉴스 + 유튜브 댓글)**
 > - [X] ~Word2Vec~
 
-
-<br>
-
-
-## 14. 프로젝트 구조
+# 14. 프로젝트 구조
 
 ```
 📦 
@@ -266,5 +262,10 @@
 │        └─ vader 기반 감성 지수
 │           └─ 💻vader_sentiment_lstm_predictor.ipynb
 │
-└─ README.md
+├─ README.md
+│
+└─ 인공지능기초_기말발표_10조.pdf
 ```
+*유튜브 수집 코드 및 데이터는 아래 종류의 파일만 유효하다. 아래 형태는 유튜브 api를 사용하여 간편하게 수집한 형태이며(멘토님 감사합니다.) 이외의 파일은 직접 스크랩핑한 코드와 데이터이다. 시계열 분석에 특성상 주기가 일정하게 수집되어야 하므로 폐기하였다. 하지만 몇일간의 수고가 한순간에 날라가는것이 아쉬워 남겨두었음을 유념한다.*
+- *youtube_comment_api_crawler.ipynb (harris, trump)*
+- *youtube_comment.jsonl (harris, trump)*
