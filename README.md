@@ -56,15 +56,56 @@
 |------------------------------|------------------------------|
 | ![인공지능기초_기말발표_10조-5-1](https://github.com/user-attachments/assets/a661ba60-0c06-457c-969f-3a949947d664) | ![인공지능기초_기말발표_10조-6-1](https://github.com/user-attachments/assets/5753286e-66e8-4546-9e4b-c0e78b041e78) |
 
-# 3. 프로젝트 목표
+# 4. 프로젝트 목표
 |![인공지능기초_기말발표_10조-7-1](https://github.com/user-attachments/assets/1c3f5303-25c1-4348-8c26-63bf65144ff8)|![인공지능기초_기말발표_10조-9-1](https://github.com/user-attachments/assets/5fb3779d-76a1-4d27-927f-ffda88287752)|
 |------------------------------|------------------------------|
 |![인공지능기초_기말발표_10조-10-1](https://github.com/user-attachments/assets/93178cd0-7328-4b39-a7fd-4e0a0ff5d737)|![인공지능기초_기말발표_10조-11-1](https://github.com/user-attachments/assets/be0d989d-fcee-4158-a89d-ef55472597e2)|
 
+# 5. 데이터 수집 및 전처리
+|![인공지능기초_기말발표_10조-13-1](https://github.com/user-attachments/assets/9310000b-db01-4356-b195-26c84a8e28b3)||
+|------------------------------|------------------------------|
+|![인공지능기초_기말발표_10조-14-1](https://github.com/user-attachments/assets/59a55a27-0c23-4eee-848d-039c2e5daf89)|![인공지능기초_기말발표_10조-15-1](https://github.com/user-attachments/assets/39b42f83-e68b-40f2-a7e3-1b007adee37d)|
+
+
+# 5. 데이터 분석 - 빈도분석, TF-IDF
+|토론 데이터 TF-IDF|뉴스 데이터 언급 빈도수|
+|------------------------------|------------------------------|
+|![인공지능기초_기말발표_10조-17-1](https://github.com/user-attachments/assets/98b55ab0-eebe-4941-8f13-94a05a2151a0)|![인공지능기초_기말발표_10조-18-1](https://github.com/user-attachments/assets/0016b968-4c4a-48eb-b4c9-19b1d87a7f6e)|
+|뉴스 데이터 언론사별 전체 키워드 TOP 10|뉴스 데이터 TF-IDF|
+|![인공지능기초_기말발표_10조-19-1](https://github.com/user-attachments/assets/b83176ff-32ce-4717-91d0-5720250ed717)|![인공지능기초_기말발표_10조-20-1](https://github.com/user-attachments/assets/29d60e4b-ae2a-46a0-b1f1-550ff8169264)|
+|뉴스 데이터 언론사별 후보자 관련 TOP 20|통합 데이터(토론,뉴스,유튜브) Word2Vec|
+|![인공지능기초_기말발표_10조-21-1](https://github.com/user-attachments/assets/8e909cd1-cff7-4f3f-926b-3fec12971c02)|![인공지능기초_기말발표_10조-23-1](https://github.com/user-attachments/assets/419e9278-a74d-46ac-9e03-168f69217a09)|
+
+# 6. 유튜브 댓글 데이터 감성분석 및 예측 - VADER 사전 기반 
+|VADER 사전 기반 감성분석|VADER 사전 기반 감성분석 결과|
+|------------------------------|------------------------------|
+|![인공지능기초_기말발표_10조-25-1](https://github.com/user-attachments/assets/93813127-e83c-448c-87a0-501ba1340887)|![인공지능기초_기말발표_10조-26-1](https://github.com/user-attachments/assets/33aec2d2-51a5-409e-be00-6362ec06bed1)|
+|VADER 사전 기반 감성지수 LSTM 예측|VADER 사전 기반 감성지수 Chronos 예측|
+|![인공지능기초_기말발표_10조-27-1](https://github.com/user-attachments/assets/9ef0fa81-ea1a-4652-8e8a-c2a1700fb395)|![인공지능기초_기말발표_10조-28-1](https://github.com/user-attachments/assets/24649123-eb7a-48b3-a55f-75695ed1cc54)|
+|한계 (LLM 기반 감성분석 진행의 동기)||
+|![인공지능기초_기말발표_10조-29-1](https://github.com/user-attachments/assets/945d54cd-6c4a-4afe-a4cd-a3de515088e9)||
+
+# 7. 유튜브 댓글 데이터 감성분석 및 예측 - LLM 기반
+|LLM 기반 감성분석: 모델 선정|LLM 기반 감성분석: 프롬프트 설계|
+|------------------------------|------------------------------|
+|||
+|LLM 기반 감성분석: 프롬프트 설계|LLM 기반 감성분석: 후처리|
+|||
+|LLM 기반 감성분석 결과|LLM 기반 감성지수 LSTM 예측|
+|||
+|LLM 기반 감성지수 Chronos 예측||
+|||
+
 
 |||
 |------------------------------|------------------------------|
 |||
+
+
+
+
+
+
 
  
 > [!NOTE]
