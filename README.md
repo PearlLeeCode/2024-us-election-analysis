@@ -46,10 +46,6 @@
     <td align="center">데이터 수집, 전처리,<br>분석, 모델링 및 예측</td>
     <td align="center">데이터 전처리, 분석,<br>발표</td>
 </tr> 
-<tr> 
-    <td align="center">대선 토론,<br>뉴스,<br>유튜브 댓글<br>데이터</td>
-    <td align="center">뉴스<br>데이터</td>
-</tr> 
 </table>
 <br>
 
