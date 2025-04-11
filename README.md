@@ -265,3 +265,5 @@
 *유튜브 수집 코드 및 데이터는 아래 종류의 파일만 유효하다. 아래 형태는 유튜브 api를 사용하여 간편하게 수집한 형태이며(멘토님 감사합니다.) 이외의 파일은 직접 스크랩핑한 코드와 데이터이다. 시계열 분석에 특성상 주기가 일정하게 수집되어야 하므로 폐기하였다. 하지만 몇일간의 수고가 한순간에 날라가는것이 아쉬워 남겨두었음을 유념한다.*
 - *youtube_comment_api_crawler.ipynb (harris, trump)*
 - *youtube_comment.jsonl (harris, trump)*
+
+<img alt="Hits" src="https://hits.sh/github.com/PearlLeeCode/2024-us-election-analysis.svg?view=today-total&style=for-the-badge&color=ffffff&labelColor=ffffff" align="right"/>
