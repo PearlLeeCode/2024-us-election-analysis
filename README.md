@@ -266,4 +266,4 @@
 - *youtube_comment_api_crawler.ipynb (harris, trump)*
 - *youtube_comment.jsonl (harris, trump)*
 
-<img alt="Hits" src="https://hits.sh/github.com/PearlLeeCode/2024-us-election-analysis.svg?view=today-total&style=for-the-badge&color=ffffff&labelColor=ffffff" align="right"/>
+ <a href="https://hits.sh/github.com/PearlLeeCode/2024-us-election-analysis"><img alt="Hits" src="https://hits.sh/github.com/PearlLeeCode/2024-us-election-analysis.svg?view=today-total&style=for-the-badge&color=ffffff&labelColor=ffffff" align="right"/></a>
