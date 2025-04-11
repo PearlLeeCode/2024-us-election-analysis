@@ -43,7 +43,7 @@
     <td align="center">금융공학과</td>
 </tr>
 <tr> 
-    <td align="center">데이터 수집, 전처리,<br>분석, 모델링 및 예측</td>
+    <td align="center">데이터 수집, 전처리,<br>분석, 모델링 및 예측<br>문서화, ppt 제작</td>
     <td align="center">데이터 전처리, 분석,<br>발표</td>
 </tr> 
 </table>
